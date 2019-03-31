@@ -1,0 +1,15 @@
+# Site Settings
+title: Start Jekyll
+email: kieranpcondon@gmail.com
+description: >
+  Getting started with Jekyll, with the help of taniarascia.com.
+baseurl: "/startjekyll/"
+url: "http://kierancondon.github.io"
+twitter_username: kierancondon
+github_username:  kierancondon
+# Build Settings
+sass:
+  sass_dir: _sass
+include: ['_pages']
+kramdown:
+  input: GFM
