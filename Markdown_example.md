@@ -5,6 +5,7 @@ https://www.markdownguide.org/cheat-sheet/
 http://sangsoonam.github.io/2019/01/20/syntax-highlighting-in-jekyll.html
 
 Style inspiration for the site layout:
+
 https://www.jetbrains.com/help/pycharm/quick-start-guide.html
 
 # Heading One
