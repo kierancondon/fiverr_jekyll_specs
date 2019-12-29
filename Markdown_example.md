@@ -1,3 +1,8 @@
+# Sources for markdown
+
+
+
+
 # Heading One
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vitae felis vitae leo ornare auctor. Aenean nec magna elementum, euismod lectus et, commodo magna. Nunc eget urna in nisl tempor rutrum a in augue. Mauris bibendum, magna eu dignissim efficitur, risus nisi lobortis est, et dignissim leo lectus quis mauris. Duis ac neque semper, sodales nisl at, posuere eros. Curabitur feugiat lorem a turpis pulvinar, sed pellentesque sapien varius. Praesent malesuada interdum eros.
 
@@ -14,12 +19,24 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vitae felis vit
 ##### Heading Five
 ###### Heading Six
 
+Unordered list
 - This is a list 1
-- This is a **list** 2, with some **bold** and some *italics*
+- This is a **list** 2, with some **bold** and some *italics*. And some ***bold and italics***
 - This is a list 3
 
-Underline:
+Ordered list
+1. First item
+2. Second item
+3. Third item
+
+
+### Underline
+
+Does it work?
+
 ---
+
+Yes it does.
 
 ### Blockquotes
 
@@ -39,6 +56,36 @@ Quote break.
 
 > **Note:** The **Synchronize now** button is disabled if you have no file to synchronize.
 
+Blockquotes can be nested
+
+> Dorothy followed her through many of the beautiful rooms in her castle.
+>
+>> The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.
+
+
+### Code with syntax highlighting
+
+This is a test of `some inline code` and whether it formats `correctly`.
+
+And now for blocks of code:
+
+Ruby code
+```ruby
+def print_hi(name)
+  puts "Hi, #{name}"
+end
+print_hi('Tom')
+#=> prints 'Hi, Tom' to STDOUT.
+```
+
+Python code
+```python
+print("Hello World")
+
+def f(x):
+    """a docstring"""
+    return x**2
+```
 
 ### Tables
 
@@ -59,26 +106,11 @@ Markdown | Less | Pretty
 What|is|up
 What | is | up
 
+### Youtube Videos
+Via html:
+<a href="https://youtu.be/J---aiyznGQ" 
+target="_blank"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/8/87/Keyboard_cat.jpg/220px-Keyboard_cat.jpg" 
+alt="Keyboard cat" width="240" height="180" border="10" /></a>
 
-### Code with syntax highlighting
-
-```ruby
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-```
-
-### KaTeX
-
-You can render LaTeX mathematical expressions using [KaTeX](https://khan.github.io/KaTeX/):
-
-The *Gamma function* satisfying $\Gamma(n) = (n-1)!\quad\forall n\in\mathbb N$ is via the Euler integral
-
-$$
-\Gamma(z) = \int_0^\infty t^{z-1}e^{-t}dt\,.
-$$
-B --> D{Rhombus}
-C --> D
-```
+Or via markdown:
+[![Keyboard cat](https://upload.wikimedia.org/wikipedia/en/thumb/8/87/Keyboard_cat.jpg/220px-Keyboard_cat.jpg)](https://youtu.be/J---aiyznGQ)
