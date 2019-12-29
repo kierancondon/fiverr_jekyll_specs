@@ -1,19 +1,23 @@
 # Sources for markdown
 
+https://www.markdownguide.org/cheat-sheet/
 
+http://sangsoonam.github.io/2019/01/20/syntax-highlighting-in-jekyll.html
 
+Style inspiration for the site layout:
+https://www.jetbrains.com/help/pycharm/quick-start-guide.html
 
 # Heading One
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vitae felis vitae leo ornare auctor. Aenean nec magna elementum, euismod lectus et, commodo magna. Nunc eget urna in nisl tempor rutrum a in augue. Mauris bibendum, magna eu dignissim efficitur, risus nisi lobortis est, et dignissim leo lectus quis mauris. Duis ac neque semper, sodales nisl at, posuere eros. Curabitur feugiat lorem a turpis pulvinar, sed pellentesque sapien varius. Praesent malesuada interdum eros.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vitae felis vitae leo ornare auctor. Aenean nec magna elementum, euismod lectus et, commodo magna. Nunc eget urna in nisl tempor rutrum a in augue.
 
-Integer eu aliquet turpis. Sed ipsum diam, fermentum non leo et, imperdiet faucibus enim. Aenean fringilla ornare tortor porta auctor. Maecenas placerat purus vitae mi pulvinar, eu ornare purus gravida. Sed non nisl rutrum, ornare est et, aliquet ex. Sed non magna id tortor egestas tincidunt quis sit amet lacus. Etiam leo nisi, sollicitudin eu facilisis sed, faucibus sit amet sem. Etiam et fringilla nulla. Sed facilisis sed eros eu tempor. Donec mollis neque eget interdum iaculis.
+Integer eu aliquet turpis. Sed ipsum diam, fermentum non leo et, imperdiet faucibus enim. Aenean fringilla ornare tortor porta auctor. Maecenas placerat purus vitae mi pulvinar, eu ornare purus gravida.
 
 # Heading One
 ## Heading Two
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vitae felis vitae leo ornare auctor. Aenean nec magna elementum, euismod lectus et, commodo magna. Nunc eget urna in nisl tempor rutrum a in augue. Mauris bibendum, magna eu dignissim efficitur, risus nisi lobortis est, et dignissim leo lectus quis mauris. Duis ac neque semper, sodales nisl at, posuere eros. Curabitur feugiat lorem a turpis pulvinar, sed pellentesque sapien varius. Praesent malesuada interdum eros.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vitae felis vitae leo ornare auctor. Aenean nec magna elementum, euismod lectus et, commodo magna. Nunc eget urna in nisl tempor rutrum a in augue.
 
 ### Heading Three
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vitae felis vitae leo ornare auctor. Aenean nec magna elementum, euismod lectus et, commodo magna. Nunc eget urna in nisl tempor rutrum a in augue. Mauris bibendum, magna eu dignissim efficitur, risus nisi lobortis est, et dignissim leo lectus quis mauris. Duis ac neque semper, sodales nisl at, posuere eros. Curabitur feugiat lorem a turpis pulvinar, sed pellentesque sapien varius. Praesent malesuada interdum eros.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vitae felis vitae leo ornare auctor. Aenean nec magna elementum, euismod lectus et, commodo magna. Nunc eget urna in nisl tempor rutrum a in augue.
 
 #### Heading Four
 ##### Heading Five
@@ -29,6 +33,13 @@ Ordered list
 2. Second item
 3. Third item
 
+Indented list
+- First item
+- Second item
+- Third item
+    - Indented item
+    - Indented item
+- Fourth item
 
 ### Underline
 
@@ -49,19 +60,12 @@ Quote break.
 
 - The workspace synchronization will sync all your files, folders and settings automatically. This will allow you to fetch your workspace on any other device.
 	> This is a blockquoteTo start syncing your workspace, just sign in with Google in the menu.
-
-- The file synchronization will keep one file of the workspace synced with one or multiple files in **Google Drive**, **Dropbox** or **GitHub**.
-	> Before starting to sync files, you must link an account in the **Synchronize** sub-menu.
- in the navigation bar.
-
-> **Note:** The **Synchronize now** button is disabled if you have no file to synchronize.
-
+	
 Blockquotes can be nested
 
 > Dorothy followed her through many of the beautiful rooms in her castle.
 >
 >> The Witch bade her clean the pots and kettles and sweep the floor and keep the fire fed with wood.
-
 
 ### Code with syntax highlighting
 
