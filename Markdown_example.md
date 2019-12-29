@@ -112,10 +112,14 @@ What|is|up
 What | is | up
 
 ### Youtube Videos
+Preference for embedded, but if long development, it can be done as an image with link:
+
 Via html:
+
 <a href="https://youtu.be/J---aiyznGQ" 
 target="_blank"><img src="https://upload.wikimedia.org/wikipedia/en/thumb/8/87/Keyboard_cat.jpg/220px-Keyboard_cat.jpg" 
 alt="Keyboard cat" width="240" height="180" border="10" /></a>
 
-Or via markdown:
+Or via markdown (preferred, not mandatory):
+
 [![Keyboard cat](https://upload.wikimedia.org/wikipedia/en/thumb/8/87/Keyboard_cat.jpg/220px-Keyboard_cat.jpg)](https://youtu.be/J---aiyznGQ)
